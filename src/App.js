@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import Bienvenido from "./components/ClassComponent/Bienvenido";
+// import CicloDeVida from "./components/ClassComponent/CicloDeVida";
+
+import JsxFuncComponent from "./components/FunctionalComponent/JsxFuncComponent";
+// import CicloDeVidaFuncComponent from "./components/FunctionalComponent/CicloDeVidaFuncComponent";
+// import StateVsVariable from "./components/FunctionalComponent/StateVsVariable";
+// import Contador from "./components/FunctionalComponent/Contador";
+// import PropsComponent from "./components/FunctionalComponent/PropsComponent";
+// import PropTypesComponent from "./components/FunctionalComponent/PropTypesComponent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* Class Component */}
+      {/* <Bienvenido /> */}
+      {/* <CicloDeVida /> */}
+
+      {/* Functional Component */}
+      <JsxFuncComponent />
+      {/* <CicloDeVidaFuncComponent /> */}
+      {/* <StateVsVariable /> */}
+      {/* <Contador /> */}
+      {/* <PropsComponent /> */}
+      {/* <PropTypesComponent /> */}
     </div>
   );
 }
