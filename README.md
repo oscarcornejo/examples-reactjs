@@ -1,40 +1,23 @@
-src/
-├─ filters/
-│ ├─ index.js
-├─ mixins/
-│ ├─ index.js
-├─ services/
-│ ├─ session.service.js
-├─ components/
-│ ├─ shared/
-│ │ ├─ data-table/
-│ │ │ ├─ data-table.component.js
-│ │ │ ├─ data-table.component.css
-│ │ ├─ data-input/
-│ │ │ ├─ button.component.js
-│ │ │ ├─ button.component.css/
-│ │ │ ├─ input.component.js/
-│ │ │ ├─ input.component.css
-│ │ ├─ charts/
-│ │ │ ├─ piechart.component.js
-│ │ │ ├─ piechart.component.css
-│ │ │ ├─ linechart.component.js
-│ │ │ ├─ linechart.component.css
-│ │ │ ├─ barchart.component.js
-│ │ │ ├─ barchart.component.css
-├─ routes/
-│ ├─ routes.js
-├─ pages/
-│ ├─ login.js
-│ ├─ home.js
-│ ├─ contact.js
-├─ store/
-│ ├─ actions.js
-│ ├─ getters.js
-│ ├─ mutations.js
-│ ├─ state.js
-│ ├─ store.js
-├─ utils/
-│ ├─ initStates.js
-├─ index.js
-├─ style.css
+# Examples Reactjs
+
+## Configurar el proyecto
+
+Para inicializar el proyecto favor seguir estos pasos:
+
+### Paso 1: Clonar el proyecto
+
+`git clone https://github.com/oscarcornejo/examples-reactjs.git`
+
+### Paso 2: Instalar las dependencias
+
+`yarn` o `npm install`
+
+### Paso 3: Levantar la aplicación
+
+`yarn start`
+
+La app web se levantará en [http://localhost:3000](http://localhost:3000)
+
+### Paso Opcional: Pasar a Producción
+
+Si deseas correr este proyecto en algún ambiente de producción o desarrollo, asegurate de ejecutar `yarn build` antes de deployar esta aplicación. Este comando crear la carpeta `build` en la raíz de tu proyecto.
